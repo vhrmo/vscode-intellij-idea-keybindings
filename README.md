@@ -371,6 +371,11 @@ Now you can compile the code:
 1. Run Command Markdown Generator `npm run usage`
 1. Paste the Command Markdown to `README.md`
 
+### Building the extension package
+
+1. Run `npm run build` to create a `.vsix` file in the root directory
+1. Install the extension from the `.vsix` file by running `code --install-extension <path-to-vsix-file>`
+
 After the initial compile, the source files will be watched and recompiled when changes are saved.
 
 ## Contributors

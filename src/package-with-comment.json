@@ -1,11 +1,11 @@
 {
     "name": "intellij-idea-keybindings",
     "version": "1.7.7",
-    "publisher": "k--kato",
+    "publisher": "vhrmo",
     "engines": {
         "vscode": "^1.94.0"
     },
-    "displayName": "IntelliJ IDEA Keybindings",
+    "displayName": "IntelliJ IDEA Keybindings (vhrmo)",
     "description": "Port of IntelliJ IDEA Keybindings, including for WebStorm, PyCharm, PHP Storm, etc.",
     "categories": [
         "Keymaps"
@@ -51,6 +51,7 @@
         "vscode:prepublish": "npm run package",
         "compile": "webpack",
         "watch": "webpack --watch",
+        "build": "vsce package",
         "package": "webpack --mode production --devtool hidden-source-map",
         "lint": "eslint . --ext .ts,.tsx",
         "usage": "node ./src/tool/gene-keybind-markdown.js"
@@ -1739,8 +1740,8 @@
              * General
             \*---------------------------------------------------------------*/
             {
-                "key": "alt+0",
-                "mac": "cmd+0",
+                "key": "alt+6",
+                "mac": "cmd+6",
                 "command": "workbench.actions.view.problems",
                 "intellij": "Activate Messages window (Problems)"
             },
@@ -2040,15 +2041,15 @@
                 "notebook": "To keep Notebook key bindings"
             },
             {
-                "key": "alt+f12",
-                "mac": "alt+f12",
+                "key": "alt+0",
+                "mac": "cmd+0",
                 "command": "workbench.action.terminal.focus",
                 "when": "!terminalFocus",
                 "intellij": "Opens and focuses corresponding tool window (Terminal)"
             },
             {
-                "key": "alt+f12",
-                "mac": "alt+f12",
+                "key": "alt+0",
+                "mac": "cmd+0",
                 "command": "workbench.action.terminal.toggleTerminal",
                 "when": "terminalFocus",
                 "intellij": "Close corresponding tool window (Terminal)"

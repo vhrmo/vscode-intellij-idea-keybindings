@@ -8,7 +8,7 @@
             "group": "build",
             "isBackground": true,
             "problemMatcher": [
-              "$ts-webpack-watch"
+                "$ts-webpack-watch"
             ]
         },
         {
@@ -16,7 +16,40 @@
             "script": "watch",
             "group": "build",
             "isBackground": true,
-            "problemMatcher": ["$ts-webpack-watch"]
+            "problemMatcher": [
+                "$ts-webpack-watch"
+            ]
+        },
+        {
+            "label": "npm: build",
+            "type": "npm",
+            "script": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "install: vsix",
+            "type": "shell",
+            "command": "open",
+            "args": [
+                "-a",
+                "Visual Studio Code",
+                "--args",
+                "--install-extension",
+                "${input:vsixPath}"
+            ],
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "vsixPath",
+            "type": "promptString",
+            "description": "Path to .vsix file",
+            "default": "${workspaceFolder}/*.vsix"
         }
     ]
 }
