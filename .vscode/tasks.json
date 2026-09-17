@@ -12,18 +12,19 @@
             ]
         },
         {
-            "type": "npm",
-            "script": "watch",
-            "group": "build",
-            "isBackground": true,
-            "problemMatcher": [
-                "$ts-webpack-watch"
-            ]
-        },
-        {
             "label": "npm: build",
             "type": "npm",
             "script": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "npm: usage",
+            "type": "npm",
+            "script": "usage",
             "group": {
                 "kind": "build",
                 "isDefault": true

@@ -498,84 +498,84 @@
             },
             {
                 "key": "ctrl+=",
-                "mac": "cmd+=",
+                "mac": "ctrl+=",
                 "command": "editor.unfold",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Expand code block"
             },
             {
                 "key": "ctrl+numpad_add",
-                "mac": "cmd+numpad_add",
+                "mac": "ctrl+numpad_add",
                 "command": "editor.unfold",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Expand code block"
             },
             {
                 "key": "ctrl+-",
-                "mac": "cmd+-",
+                "mac": "ctrl+-",
                 "command": "editor.fold",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Collapse code block"
             },
             {
                 "key": "ctrl+numpad_subtract",
-                "mac": "cmd+numpad_subtract",
+                "mac": "ctrl+numpad_subtract",
                 "command": "editor.fold",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Collapse code block"
             },
             {
                 "key": "ctrl+alt+=",
-                "mac": "cmd+alt+=",
+                "mac": "ctrl+alt+=",
                 "command": "editor.unfoldRecursively",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Expand code block recursively"
             },
             {
                 "key": "ctrl+alt+numpad_add",
-                "mac": "cmd+alt+numpad_add",
+                "mac": "ctrl+alt+numpad_add",
                 "command": "editor.unfoldRecursively",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Expand code block recursively"
             },
             {
                 "key": "ctrl+alt+-",
-                "mac": "cmd+alt+-",
+                "mac": "ctrl+alt+-",
                 "command": "editor.foldRecursively",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Collapse code block recursively"
             },
             {
                 "key": "ctrl+alt+numpad_subtract",
-                "mac": "cmd+alt+numpad_subtract",
+                "mac": "ctrl+alt+numpad_subtract",
                 "command": "editor.foldRecursively",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Collapse code block recursively"
             },
             {
                 "key": "ctrl+shift+=",
-                "mac": "cmd+shift+=",
+                "mac": "ctrl+shift+=",
                 "command": "editor.unfoldAll",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Expand all"
             },
             {
                 "key": "ctrl+shift+numpad_add",
-                "mac": "cmd+shift+numpad_add",
+                "mac": "ctrl+shift+numpad_add",
                 "command": "editor.unfoldAll",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Expand all"
             },
             {
                 "key": "ctrl+shift+-",
-                "mac": "cmd+shift+-",
+                "mac": "ctrl+shift+-",
                 "command": "editor.foldAll",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Collapse all"
             },
             {
                 "key": "ctrl+shift+numpad_subtract",
-                "mac": "cmd+shift+numpad_subtract",
+                "mac": "ctrl+shift+numpad_subtract",
                 "command": "editor.foldAll",
                 "when": "editorFocus && foldingEnabled",
                 "intellij": "Collapse all"
